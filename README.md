@@ -6,10 +6,13 @@ This map displays the 28 ski resorts of Colorado by skiable acres. The map was c
 ## Map Features
 The web map includes:
 
-The 28 ski resorts of Colorado, with graduated circles showing the resort size in skiable acres from smallest to largest
-An interactive Leaflet basemap
-A layer on the basemap showing the runs and lifts for each resort
-A tooltip that pops up upon hovering over a circle, showing important resort stats
+- The 28 ski resorts of Colorado, with graduated circles showing the resort size in skiable acres from smallest to largest
+
+- An interactive Leaflet basemap
+
+- A layer on the basemap showing the runs and lifts for each resort
+
+- A tooltip that pops up upon hovering over a circle, showing important resort stats
 
 ## Methods
 The web map was created using HTML, CSS, and JavaScript, with the Leaflet JavaScript library used to create the interactive map. The ski resort data was gathered from a Wikipedia Article that compares the resort stats. The coordinates for each resort center point were gathered from Google Maps. The coordinates and data were then opened, edited, and exported as a GeoJSON file. That GeoJSON file was then used in the web map as the circle points and resort stats.
