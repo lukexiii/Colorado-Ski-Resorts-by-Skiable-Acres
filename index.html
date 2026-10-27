@@ -122,7 +122,7 @@ console.log("hello world!");
 
 //Adding and scaling my circles
 
-states = L.geoJson.ajax("assets/data.geojson",{
+states = L.geoJson.ajax("Assets/data.geojson",{
     attribution: 'Data: Wikipedia - Comparison of Colorado Ski Resorts, Map: LUKE PHELPS',
     pointToLayer: function (feature, x){
       return L.circleMarker(x, {
