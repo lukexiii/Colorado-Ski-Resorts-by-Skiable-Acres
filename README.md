@@ -25,6 +25,7 @@ The Ski Resort Data was gathered via Wikipedia: [Comparison of Colorado Ski Reso
 The basemap was found through [Leaflet Provider Demo](https://leaflet-extras.github.io/leaflet-providers/preview/) and is from [Stadia Maps](https://stadiamaps.com/).
 The resort runs layer was also found through [Leaflet Provider Demo](https://leaflet-extras.github.io/leaflet-providers/preview/) and is from [OpenSnowMap.pistes](https://www.opensnowmap.org/).
 
-Files
+#Files
 index.html – main webpage
+
 data.geojson – coordinate/point data and info for the resorts
